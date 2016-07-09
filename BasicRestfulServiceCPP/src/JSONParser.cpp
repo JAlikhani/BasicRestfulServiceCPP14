@@ -16,18 +16,31 @@ string SubString(string in, string start ) {
 	return ret;
 }
 
-string JSONParser::Books(string httpInput) {
-
-	stringstream ss;
-	string buff = SubString(httpInput, "{");
+JSONParser::JSONParser(string in) {
+	string buff = SubString(in, "{");
 	Json::Reader reader;
 	Json::Value obj;
 	reader.parse(buff, obj); // reader can also read strings
-	const Json::Value& books = obj["book"]; // array of books
-	for (unsigned int i = 0; i < books.size(); i++){
-		ss << i + 1 << ":" << endl;
-		ss << "title: " << books[i]["title"].asString() << endl;
-		ss << "author: " << books[i]["author"].asString() << endl;
+	const Json::Value myBooks = obj["book"]; // array of books
+	for (unsigned int i = 0; i < myBooks.size(); i++){
+		books[myBooks[i]["title"].asString()] = myBooks[i]["author"].asString();
+	}
+}
+
+string JSONParser::Author(string title) {
+
+	return books.find(title)->second;
+}
+
+string JSONParser::Books() {
+
+	stringstream ss;
+	int i = 1;
+	for (auto& x: books) {
+		std::cout << x.first << ": " << x.second << '\n';
+		ss << i++ << ":" << endl;
+		ss << "title: " << x.first << endl;
+		ss << "author: " << x.second << endl;
 		ss << endl;
 	}
 	return ss.str();

@@ -1,0 +1,42 @@
+//============================================================================
+// Name        : JSONParser.cpp
+// Author      : J.Alikhani
+// Version     : 1.0
+// Copyright   : @2016 RestfulServiceCpp
+// Description : Restful Service in Modern C++14
+//============================================================================
+
+#include <JSONParser.h>
+
+string SubString(string in, string start ) {
+
+	string ret;
+	size_t found = in.find(start);
+	if (found!=string::npos) ret = in.substr(found);
+	return ret;
+}
+
+JSONParser::JSONParser(string in) {
+	books = NULL;
+	string buff = SubString(in, "{");
+	Json::Reader reader;
+	Json::Value obj;
+	reader.parse(buff, obj); // reader can also read strings
+	books = obj["book"]; // array of books
+}
+
+string JSONParser::Books() {
+	stringstream ss;
+	for (unsigned int i = 0; i < books.size(); i++){
+		ss << i + 1 << ":" << endl;
+		ss << "title: " << books[i]["title"].asString() << endl;
+		ss << "author: " << books[i]["author"].asString() << endl;
+		ss << endl;
+	}
+	return ss.str();
+}
+
+
+
+
+

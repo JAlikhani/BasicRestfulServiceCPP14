@@ -16,8 +16,12 @@
 using namespace std;
 
 class JSONParser {
-	public:
-		string Books(string httpInput);
+private:
+		map<string, string> books;
+public:
+	JSONParser(string in);
+	string Books();
+	string Author(string title);
 };
 
 #endif /* JSONPARSER_H_ */

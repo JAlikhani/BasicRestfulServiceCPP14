@@ -6,9 +6,11 @@
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 #define BOOST_TEST_DYN_LINK
-#define BOOST_TEST_MODULE Hello
+#define BOOST_TEST_JSON_MODULE JSONTest
+#define BOOST_TEST_MODULE Suites
 #include <boost/test/included/unit_test.hpp>
 #include <iostream>
+#include <JSONParser.h>
 
 using namespace std;
 
@@ -17,38 +19,36 @@ string in1 = R"({
 
 		      {
 		         "id":"01",
-		         "title": "In Search of Lost Time",
-		         "author": "Marcel Proust"
+		         "title": "Alice's Adventures in Wonderland",
+		         "author": "Lewis Carroll"
 		      },
 
 		      {
 		         "id":"02",
-		         "title": "Moby Dick",
-		         "author": "Herman Melville"
-		      },
-
-		      {
-		         "id":"03",
-		         "title": "Hamlet",
-		         "author": "William Shakespeare"
-		      },
-
-		      {
-		         "id":"04",
-		         "title": "The Odyssey",
-		         "author": "Homer"
+		         "title": "The Hitchhiker's Guide to the Galaxy",
+		         "author": "Douglas Adams"
 		      }
 		   ]
 		})";
 
-int add(int i, int j)
+
+BOOST_AUTO_TEST_SUITE()
+
+BOOST_AUTO_TEST_CASE(ValidJson)
 {
-	//JSONParser jsonParser;
-		//cout << jsonParser.Books(in1);
-    return i + j;
+	JSONParser jsonParser(in1);
+	BOOST_CHECK(jsonParser.Author("Alice's Adventures in Wonderland").compare("Lewis Carroll") == 0);
 }
 
-BOOST_AUTO_TEST_CASE(universeInOrder)
+BOOST_AUTO_TEST_SUITE_END()
+
+BOOST_AUTO_TEST_SUITE()
+
+BOOST_AUTO_TEST_CASE(InvalidJson)
 {
-    BOOST_CHECK(add(2, 2) == 4);
+	JSONParser jsonParser(in1);
+	BOOST_CHECK(jsonParser.Author("Alice's Adventures in Wonderland").compare("Carroll") != 0);
 }
+
+BOOST_AUTO_TEST_SUITE_END()
+

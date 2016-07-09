@@ -49,6 +49,6 @@ int main(int argc, char const *argv[]) {
 		}
 	 */
 	ss << http.Request("floating-fjord-16663.herokuapp.com", 80, "/books", "application/json");
-	JSONParser jsonParser;
-	cout << jsonParser.Books(ss.str());
+	JSONParser jsonParser(ss.str());
+	cout << jsonParser.Books();
 }

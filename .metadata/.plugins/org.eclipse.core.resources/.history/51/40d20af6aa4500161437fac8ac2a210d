@@ -1,0 +1,57 @@
+//============================================================================
+// Name        : RestfulServiceCPPUnitTest.cpp
+// Author      :
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+#define BOOST_TEST_DYN_LINK
+#define BOOST_TEST_JSON_MODULE JSONTest
+#define BOOST_TEST_MODULE Suites
+#include <boost/test/included/unit_test.hpp>
+#include <iostream>
+#include <JSONParser.h>
+
+using namespace std;
+
+string in1 = R"({
+		   "book": [
+
+		      {
+		         "id":"01",
+		         "title": "Alice's Adventures in Wonderland",
+		         "author": "Lewis Carroll"
+		      },
+
+		      {
+		         "id":"02",
+		         "title": "The Hitchhiker's Guide to the Galaxy",
+		         "author": "Douglas Adams"
+		      }
+		   ]
+		})";
+
+int add(int i, int j)
+{
+    return i + j;
+}
+
+BOOST_AUTO_TEST_SUITE(Maths)
+
+BOOST_AUTO_TEST_CASE(universeInOrder)
+{
+    BOOST_CHECK(add(2, 2) == 4);
+}
+
+BOOST_AUTO_TEST_SUITE_END()
+
+BOOST_AUTO_TEST_SUITE()
+
+BOOST_AUTO_TEST_CASE(specialTheory)
+{
+	JSONParser jsonParser;
+			cout << jsonParser.Books(in1);
+}
+
+BOOST_AUTO_TEST_SUITE_END()
+

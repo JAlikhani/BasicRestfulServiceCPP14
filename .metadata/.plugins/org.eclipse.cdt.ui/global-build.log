@@ -147,3 +147,833 @@ Finished building target: BasicRestfulServiceCPP
 00:34:30 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
 make all 
 make: Nothing to be done for `all'.
+00:42:19 **** Clean-only build of configuration Debug for project BasicRestfulServiceCPP ****
+make clean 
+rm -rf  ./src/BasicRestfulServiceCPP.o ./src/Http.o ./src/JSONParser.o ./src/jsoncpp.o  ./src/BasicRestfulServiceCPP.d ./src/Http.d ./src/JSONParser.d ./src/jsoncpp.d  BasicRestfulServiceCPP
+ 
+00:42:19 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/Http.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Http.d" -MT"src/Http.o" -o "src/Http.o" "../src/Http.cpp"
+Finished building: ../src/Http.cpp
+ 
+Building file: ../src/JSONParser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+Finished building: ../src/JSONParser.cpp
+ 
+Building file: ../src/RestfulServiceCPPUnitTest.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RestfulServiceCPPUnitTest.d" -MT"src/RestfulServiceCPPUnitTest.o" -o "src/RestfulServiceCPPUnitTest.o" "../src/RestfulServiceCPPUnitTest.cpp"
+Finished building: ../src/RestfulServiceCPPUnitTest.cpp
+ 
+Building file: ../src/jsoncpp.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/jsoncpp.d" -MT"src/jsoncpp.o" -o "src/jsoncpp.o" "../src/jsoncpp.cpp"
+Finished building: ../src/jsoncpp.cpp
+ 
+Building target: BasicRestfulServiceCPP
+Invoking: GCC C++ Linker
+g++  -o "BasicRestfulServiceCPP"  ./src/Http.o ./src/JSONParser.o ./src/RestfulServiceCPPUnitTest.o ./src/jsoncpp.o   
+Finished building target: BasicRestfulServiceCPP
+ 
+00:42:57 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+make: Nothing to be done for `all'.
+00:43:54 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/RestfulServiceCPPUnitTest.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RestfulServiceCPPUnitTest.d" -MT"src/RestfulServiceCPPUnitTest.o" -o "src/RestfulServiceCPPUnitTest.o" "../src/RestfulServiceCPPUnitTest.cpp"
+Finished building: ../src/RestfulServiceCPPUnitTest.cpp
+ 
+Building target: BasicRestfulServiceCPP
+Invoking: GCC C++ Linker
+g++  -o "BasicRestfulServiceCPP"  ./src/Http.o ./src/JSONParser.o ./src/RestfulServiceCPPUnitTest.o ./src/jsoncpp.o   
+Finished building target: BasicRestfulServiceCPP
+ 
+00:47:31 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/RestfulServiceCPPUnitTest.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RestfulServiceCPPUnitTest.d" -MT"src/RestfulServiceCPPUnitTest.o" -o "src/RestfulServiceCPPUnitTest.o" "../src/RestfulServiceCPPUnitTest.cpp"
+Finished building: ../src/RestfulServiceCPPUnitTest.cpp
+ 
+Building target: BasicRestfulServiceCPP
+Invoking: GCC C++ Linker
+g++  -o "BasicRestfulServiceCPP"  ./src/Http.o ./src/JSONParser.o ./src/RestfulServiceCPPUnitTest.o ./src/jsoncpp.o   
+Finished building target: BasicRestfulServiceCPP
+ 
+00:48:30 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+make: Nothing to be done for `all'.
+00:52:22 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/RestfulServiceCPPUnitTest.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RestfulServiceCPPUnitTest.d" -MT"src/RestfulServiceCPPUnitTest.o" -o "src/RestfulServiceCPPUnitTest.o" "../src/RestfulServiceCPPUnitTest.cpp"
+Finished building: ../src/RestfulServiceCPPUnitTest.cpp
+ 
+Building target: BasicRestfulServiceCPP
+Invoking: GCC C++ Linker
+g++  -o "BasicRestfulServiceCPP"  ./src/Http.o ./src/JSONParser.o ./src/RestfulServiceCPPUnitTest.o ./src/jsoncpp.o   
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 0 has invalid symbol index 11
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 1 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 2 has invalid symbol index 2
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 3 has invalid symbol index 2
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 4 has invalid symbol index 11
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 5 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 6 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 7 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 8 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 9 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 10 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 11 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 12 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 13 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 14 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 15 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 16 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 17 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 18 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 19 has invalid symbol index 21
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_line): relocation 0 has invalid symbol index 2
+/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [BasicRestfulServiceCPP] Error 1
+00:53:19 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building target: BasicRestfulServiceCPP
+Invoking: GCC C++ Linker
+g++  -o "BasicRestfulServiceCPP"  ./src/Http.o ./src/JSONParser.o ./src/RestfulServiceCPPUnitTest.o ./src/jsoncpp.o   
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 0 has invalid symbol index 11
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 1 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 2 has invalid symbol index 2
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 3 has invalid symbol index 2
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 4 has invalid symbol index 11
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 5 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 6 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 7 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 8 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 9 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 10 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 11 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 12 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 13 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 14 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 15 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 16 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 17 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 18 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 19 has invalid symbol index 21
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_line): relocation 0 has invalid symbol index 2
+/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [BasicRestfulServiceCPP] Error 1
+00:54:29 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/RestfulServiceCPPUnitTest.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RestfulServiceCPPUnitTest.d" -MT"src/RestfulServiceCPPUnitTest.o" -o "src/RestfulServiceCPPUnitTest.o" "../src/RestfulServiceCPPUnitTest.cpp"
+Finished building: ../src/RestfulServiceCPPUnitTest.cpp
+ 
+Building target: BasicRestfulServiceCPP
+Invoking: GCC C++ Linker
+g++  -o "BasicRestfulServiceCPP"  ./src/Http.o ./src/JSONParser.o ./src/RestfulServiceCPPUnitTest.o ./src/jsoncpp.o   
+Finished building target: BasicRestfulServiceCPP
+ 
+00:54:43 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+make: Nothing to be done for `all'.
+00:55:52 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/RestfulServiceCPPUnitTest.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RestfulServiceCPPUnitTest.d" -MT"src/RestfulServiceCPPUnitTest.o" -o "src/RestfulServiceCPPUnitTest.o" "../src/RestfulServiceCPPUnitTest.cpp"
+In file included from /usr/include/boost/test/unit_test.hpp:20:0,
+                 from /usr/include/boost/test/included/unit_test.hpp:39,
+                 from ../src/RestfulServiceCPPUnitTest.cpp:11:
+../src/RestfulServiceCPPUnitTest.cpp:50:23: error: ‘namespace JSONParser { }’ redeclared as different kind of symbol
+ BOOST_AUTO_TEST_SUITE(JSONParser)
+                       ^
+In file included from ../src/RestfulServiceCPPUnitTest.cpp:14:0:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:18:7: note: previous declaration ‘class JSONParser’
+ class JSONParser {
+       ^~~~~~~~~~
+make: *** [src/RestfulServiceCPPUnitTest.o] Error 1
+00:56:45 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/RestfulServiceCPPUnitTest.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RestfulServiceCPPUnitTest.d" -MT"src/RestfulServiceCPPUnitTest.o" -o "src/RestfulServiceCPPUnitTest.o" "../src/RestfulServiceCPPUnitTest.cpp"
+../src/RestfulServiceCPPUnitTest.cpp: In member function ‘void JSONParser::specialTheory::test_method()’:
+../src/RestfulServiceCPPUnitTest.cpp:51:13: error: expected primary-expression before ‘jsonParser’
+  JSONParser jsonParser;
+             ^~~~~~~~~~
+../src/RestfulServiceCPPUnitTest.cpp:52:12: error: ‘jsonParser’ was not declared in this scope
+    cout << jsonParser.Books(in1);
+            ^~~~~~~~~~
+make: *** [src/RestfulServiceCPPUnitTest.o] Error 1
+00:58:03 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/RestfulServiceCPPUnitTest.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RestfulServiceCPPUnitTest.d" -MT"src/RestfulServiceCPPUnitTest.o" -o "src/RestfulServiceCPPUnitTest.o" "../src/RestfulServiceCPPUnitTest.cpp"
+Finished building: ../src/RestfulServiceCPPUnitTest.cpp
+ 
+Building target: BasicRestfulServiceCPP
+Invoking: GCC C++ Linker
+g++  -o "BasicRestfulServiceCPP"  ./src/Http.o ./src/JSONParser.o ./src/RestfulServiceCPPUnitTest.o ./src/jsoncpp.o   
+Finished building target: BasicRestfulServiceCPP
+ 
+00:58:18 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+make: Nothing to be done for `all'.
+00:58:48 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/RestfulServiceCPPUnitTest.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RestfulServiceCPPUnitTest.d" -MT"src/RestfulServiceCPPUnitTest.o" -o "src/RestfulServiceCPPUnitTest.o" "../src/RestfulServiceCPPUnitTest.cpp"
+Finished building: ../src/RestfulServiceCPPUnitTest.cpp
+ 
+Building target: BasicRestfulServiceCPP
+Invoking: GCC C++ Linker
+g++  -o "BasicRestfulServiceCPP"  ./src/Http.o ./src/JSONParser.o ./src/RestfulServiceCPPUnitTest.o ./src/jsoncpp.o   
+Finished building target: BasicRestfulServiceCPP
+ 
+00:59:48 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/RestfulServiceCPPUnitTest.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RestfulServiceCPPUnitTest.d" -MT"src/RestfulServiceCPPUnitTest.o" -o "src/RestfulServiceCPPUnitTest.o" "../src/RestfulServiceCPPUnitTest.cpp"
+../src/RestfulServiceCPPUnitTest.cpp: In member function ‘void {anonymous}::JSONParser::test_method()’:
+../src/RestfulServiceCPPUnitTest.cpp:40:23: error: ‘struct {anonymous}::JSONParser’ has no member named ‘Books’
+    cout << jsonParser.Books(in1);
+                       ^~~~~
+make: *** [src/RestfulServiceCPPUnitTest.o] Error 1
+01:01:06 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/RestfulServiceCPPUnitTest.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RestfulServiceCPPUnitTest.d" -MT"src/RestfulServiceCPPUnitTest.o" -o "src/RestfulServiceCPPUnitTest.o" "../src/RestfulServiceCPPUnitTest.cpp"
+Finished building: ../src/RestfulServiceCPPUnitTest.cpp
+ 
+Building target: BasicRestfulServiceCPP
+Invoking: GCC C++ Linker
+g++  -o "BasicRestfulServiceCPP"  ./src/Http.o ./src/JSONParser.o ./src/RestfulServiceCPPUnitTest.o ./src/jsoncpp.o   
+Finished building target: BasicRestfulServiceCPP
+ 
+01:01:27 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+make: Nothing to be done for `all'.
+01:08:25 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/JSONParser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+../src/JSONParser.cpp:19:19: error: expected ‘)’ before ‘in’
+ JSONParser(string in) {
+                   ^~
+../src/JSONParser.cpp: In member function ‘std::string JSONParser::Books()’:
+../src/JSONParser.cpp:32:31: error: ‘books’ was not declared in this scope
+  for (unsigned int i = 0; i < books.size(); i++){
+                               ^~~~~
+../src/JSONParser.cpp:33:3: error: ‘ss’ was not declared in this scope
+   ss << i + 1 << ":" << endl;
+   ^~
+../src/JSONParser.cpp:38:9: error: ‘ss’ was not declared in this scope
+  return ss.str();
+         ^~
+make: *** [src/JSONParser.o] Error 1
+01:09:06 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/JSONParser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+../src/JSONParser.cpp:19:19: error: expected ‘)’ before ‘in’
+ JSONParser(string in) {
+                   ^~
+../src/JSONParser.cpp: In member function ‘std::string JSONParser::Books()’:
+../src/JSONParser.cpp:30:31: error: ‘books’ was not declared in this scope
+  for (unsigned int i = 0; i < books.size(); i++){
+                               ^~~~~
+make: *** [src/JSONParser.o] Error 1
+01:09:57 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/JSONParser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+../src/JSONParser.cpp: In constructor ‘JSONParser::JSONParser(std::string)’:
+../src/JSONParser.cpp:20:26: error: ‘httpInput’ was not declared in this scope
+  string buff = SubString(httpInput, "{");
+                          ^~~~~~~~~
+../src/JSONParser.cpp:24:2: error: ‘books’ was not declared in this scope
+  books = obj["book"]; // array of books
+  ^~~~~
+../src/JSONParser.cpp: In member function ‘std::string JSONParser::Books()’:
+../src/JSONParser.cpp:30:31: error: ‘books’ was not declared in this scope
+  for (unsigned int i = 0; i < books.size(); i++){
+                               ^~~~~
+make: *** [src/JSONParser.o] Error 1
+01:10:46 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/JSONParser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+../src/JSONParser.cpp: In constructor ‘JSONParser::JSONParser(std::string)’:
+../src/JSONParser.cpp:19:1: error: uninitialized reference member in ‘const class Json::Value&’ [-fpermissive]
+ JSONParser::JSONParser(string in) {
+ ^~~~~~~~~~
+In file included from ../src/JSONParser.cpp:9:0:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:19:21: note: ‘const Json::Value& JSONParser::books’ should be initialized
+  const Json::Value& books;
+                     ^~~~~
+../src/JSONParser.cpp:20:26: error: ‘httpInput’ was not declared in this scope
+  string buff = SubString(httpInput, "{");
+                          ^~~~~~~~~
+../src/JSONParser.cpp:24:20: error: passing ‘const Json::Value’ as ‘this’ argument discards qualifiers [-fpermissive]
+  books = obj["book"]; // array of books
+                    ^
+In file included from /home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:13:0,
+                 from ../src/JSONParser.cpp:9:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/json.h:754:10: note:   in call to ‘Json::Value& Json::Value::operator=(Json::Value)’
+   Value& operator=(Value other);
+          ^~~~~~~~
+make: *** [src/JSONParser.o] Error 1
+01:11:23 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/JSONParser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+../src/JSONParser.cpp: In constructor ‘JSONParser::JSONParser(std::string)’:
+../src/JSONParser.cpp:19:1: error: uninitialized reference member in ‘const class Json::Value&’ [-fpermissive]
+ JSONParser::JSONParser(string in) {
+ ^~~~~~~~~~
+In file included from ../src/JSONParser.cpp:9:0:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:19:21: note: ‘const Json::Value& JSONParser::books’ should be initialized
+  const Json::Value& books;
+                     ^~~~~
+../src/JSONParser.cpp:24:20: error: passing ‘const Json::Value’ as ‘this’ argument discards qualifiers [-fpermissive]
+  books = obj["book"]; // array of books
+                    ^
+In file included from /home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:13:0,
+                 from ../src/JSONParser.cpp:9:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/json.h:754:10: note:   in call to ‘Json::Value& Json::Value::operator=(Json::Value)’
+   Value& operator=(Value other);
+          ^~~~~~~~
+make: *** [src/JSONParser.o] Error 1
+01:12:57 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/JSONParser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+../src/JSONParser.cpp: In constructor ‘JSONParser::JSONParser(std::string)’:
+../src/JSONParser.cpp:19:1: error: uninitialized reference member in ‘class Json::Value&’ [-fpermissive]
+ JSONParser::JSONParser(string in) {
+ ^~~~~~~~~~
+In file included from ../src/JSONParser.cpp:9:0:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:19:15: note: ‘Json::Value& JSONParser::books’ should be initialized
+  Json::Value& books;
+               ^~~~~
+make: *** [src/JSONParser.o] Error 1
+01:13:24 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/JSONParser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+../src/JSONParser.cpp: In constructor ‘JSONParser::JSONParser(std::string)’:
+../src/JSONParser.cpp:19:1: error: uninitialized reference member in ‘class Json::Value&’ [-fpermissive]
+ JSONParser::JSONParser(string in) {
+ ^~~~~~~~~~
+In file included from ../src/JSONParser.cpp:9:0:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:19:15: note: ‘Json::Value& JSONParser::books’ should be initialized
+  Json::Value& books;
+               ^~~~~
+make: *** [src/JSONParser.o] Error 1
+01:13:52 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/JSONParser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+../src/JSONParser.cpp: In constructor ‘JSONParser::JSONParser(std::string)’:
+../src/JSONParser.cpp:19:1: error: uninitialized reference member in ‘const class Json::Value&’ [-fpermissive]
+ JSONParser::JSONParser(string in) {
+ ^~~~~~~~~~
+In file included from ../src/JSONParser.cpp:9:0:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:19:21: note: ‘const Json::Value& JSONParser::books’ should be initialized
+  const Json::Value& books;
+                     ^~~~~
+../src/JSONParser.cpp:24:20: error: passing ‘const Json::Value’ as ‘this’ argument discards qualifiers [-fpermissive]
+  books = obj["book"]; // array of books
+                    ^
+In file included from /home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:13:0,
+                 from ../src/JSONParser.cpp:9:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/json.h:754:10: note:   in call to ‘Json::Value& Json::Value::operator=(Json::Value)’
+   Value& operator=(Value other);
+          ^~~~~~~~
+make: *** [src/JSONParser.o] Error 1
+01:13:58 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/JSONParser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+../src/JSONParser.cpp: In constructor ‘JSONParser::JSONParser(std::string)’:
+../src/JSONParser.cpp:19:1: error: uninitialized reference member in ‘const class Json::Value&’ [-fpermissive]
+ JSONParser::JSONParser(string in) {
+ ^~~~~~~~~~
+In file included from ../src/JSONParser.cpp:9:0:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:19:21: note: ‘const Json::Value& JSONParser::books’ should be initialized
+  const Json::Value& books;
+                     ^~~~~
+../src/JSONParser.cpp:24:20: error: passing ‘const Json::Value’ as ‘this’ argument discards qualifiers [-fpermissive]
+  books = obj["book"]; // array of books
+                    ^
+In file included from /home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:13:0,
+                 from ../src/JSONParser.cpp:9:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/json.h:754:10: note:   in call to ‘Json::Value& Json::Value::operator=(Json::Value)’
+   Value& operator=(Value other);
+          ^~~~~~~~
+make: *** [src/JSONParser.o] Error 1
+01:14:40 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/JSONParser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+../src/JSONParser.cpp: In constructor ‘JSONParser::JSONParser(std::string)’:
+../src/JSONParser.cpp:19:1: error: uninitialized reference member in ‘class Json::Value&’ [-fpermissive]
+ JSONParser::JSONParser(string in) {
+ ^~~~~~~~~~
+In file included from ../src/JSONParser.cpp:9:0:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:19:15: note: ‘Json::Value& JSONParser::books’ should be initialized
+  Json::Value& books;
+               ^~~~~
+In file included from /home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/json.h:126:0,
+                 from /home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:13,
+                 from ../src/JSONParser.cpp:9:
+../src/JSONParser.cpp:20:10: error: conversion from ‘long int’ to ‘Json::Value’ is ambiguous
+  books = NULL;
+          ^
+In file included from /home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:13:0,
+                 from ../src/JSONParser.cpp:9:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/json.h:743:3: note: candidate: Json::Value::Value(bool)
+   Value(bool value);
+   ^~~~~
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/json.h:721:3: note: candidate: Json::Value::Value(const char*)
+   Value(const char* value); ///< Copy til first 0. (NULL causes to seg-fault.)
+   ^~~~~
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/json.h:720:3: note: candidate: Json::Value::Value(double)
+   Value(double value);
+   ^~~~~
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/json.h:718:3: note: candidate: Json::Value::Value(Json::Value::UInt64)
+   Value(UInt64 value);
+   ^~~~~
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/json.h:717:3: note: candidate: Json::Value::Value(Json::Value::Int64)
+   Value(Int64 value);
+   ^~~~~
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/json.h:715:3: note: candidate: Json::Value::Value(Json::Value::UInt)
+   Value(UInt value);
+   ^~~~~
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/json.h:714:3: note: candidate: Json::Value::Value(Json::Value::Int)
+   Value(Int value);
+   ^~~~~
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/json.h:754:10: note:   initializing argument 1 of ‘Json::Value& Json::Value::operator=(Json::Value)’
+   Value& operator=(Value other);
+          ^~~~~~~~
+make: *** [src/JSONParser.o] Error 1
+01:15:45 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/JSONParser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+../src/JSONParser.cpp: In constructor ‘JSONParser::JSONParser(std::string)’:
+../src/JSONParser.cpp:24:15: warning: unused variable ‘books’ [-Wunused-variable]
+  Json::Value& books = obj["book"]; // array of books
+               ^~~~~
+../src/JSONParser.cpp: In member function ‘std::string JSONParser::Books()’:
+../src/JSONParser.cpp:29:31: error: ‘books’ was not declared in this scope
+  for (unsigned int i = 0; i < books.size(); i++){
+                               ^~~~~
+make: *** [src/JSONParser.o] Error 1
+01:16:32 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/JSONParser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+../src/JSONParser.cpp: In constructor ‘JSONParser::JSONParser(std::string)’:
+../src/JSONParser.cpp:19:1: error: uninitialized reference member in ‘class Json::Value&’ [-fpermissive]
+ JSONParser::JSONParser(string in) {
+ ^~~~~~~~~~
+In file included from ../src/JSONParser.cpp:9:0:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:20:16: note: ‘Json::Value& JSONParser::books’ should be initialized
+   Json::Value& books;
+                ^~~~~
+make: *** [src/JSONParser.o] Error 1
+01:18:20 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/JSONParser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+Finished building: ../src/JSONParser.cpp
+ 
+Building file: ../src/RestfulServiceCPPUnitTest.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RestfulServiceCPPUnitTest.d" -MT"src/RestfulServiceCPPUnitTest.o" -o "src/RestfulServiceCPPUnitTest.o" "../src/RestfulServiceCPPUnitTest.cpp"
+../src/RestfulServiceCPPUnitTest.cpp: In member function ‘void {anonymous}::Json::test_method()’:
+../src/RestfulServiceCPPUnitTest.cpp:39:13: error: no matching function for call to ‘JSONParser::JSONParser()’
+  JSONParser jsonParser;
+             ^~~~~~~~~~
+In file included from ../src/RestfulServiceCPPUnitTest.cpp:13:0:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:21:3: note: candidate: JSONParser::JSONParser(std::string)
+   JSONParser(string in);
+   ^~~~~~~~~~
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:21:3: note:   candidate expects 1 argument, 0 provided
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:18:7: note: candidate: JSONParser::JSONParser(const JSONParser&)
+ class JSONParser {
+       ^~~~~~~~~~
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:18:7: note:   candidate expects 1 argument, 0 provided
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:18:7: note: candidate: JSONParser::JSONParser(JSONParser&&)
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:18:7: note:   candidate expects 1 argument, 0 provided
+../src/RestfulServiceCPPUnitTest.cpp:40:32: error: no matching function for call to ‘JSONParser::Books(std::string&)’
+    cout << jsonParser.Books(in1);
+                                ^
+In file included from ../src/RestfulServiceCPPUnitTest.cpp:13:0:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:22:10: note: candidate: std::string JSONParser::Books()
+   string Books();
+          ^~~~~
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:22:10: note:   candidate expects 0 arguments, 1 provided
+make: *** [src/RestfulServiceCPPUnitTest.o] Error 1
+01:18:59 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/RestfulServiceCPPUnitTest.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RestfulServiceCPPUnitTest.d" -MT"src/RestfulServiceCPPUnitTest.o" -o "src/RestfulServiceCPPUnitTest.o" "../src/RestfulServiceCPPUnitTest.cpp"
+Finished building: ../src/RestfulServiceCPPUnitTest.cpp
+ 
+Building target: BasicRestfulServiceCPP
+Invoking: GCC C++ Linker
+g++  -o "BasicRestfulServiceCPP"  ./src/Http.o ./src/JSONParser.o ./src/RestfulServiceCPPUnitTest.o ./src/jsoncpp.o   
+Finished building target: BasicRestfulServiceCPP
+ 
+01:20:08 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/JSONParser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+../src/JSONParser.cpp: In constructor ‘JSONParser::JSONParser(std::string)’:
+../src/JSONParser.cpp:19:1: error: uninitialized reference member in ‘const class Json::Value&’ [-fpermissive]
+ JSONParser::JSONParser(string in) {
+ ^~~~~~~~~~
+In file included from ../src/JSONParser.cpp:9:0:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:20:22: note: ‘const Json::Value& JSONParser::books’ should be initialized
+   const Json::Value& books;
+                      ^~~~~
+../src/JSONParser.cpp: In member function ‘std::string JSONParser::Books()’:
+../src/JSONParser.cpp:28:20: error: passing ‘const Json::Value’ as ‘this’ argument discards qualifiers [-fpermissive]
+  books = obj["book"]; // array of books
+                    ^
+In file included from /home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:13:0,
+                 from ../src/JSONParser.cpp:9:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/json.h:754:10: note:   in call to ‘Json::Value& Json::Value::operator=(Json::Value)’
+   Value& operator=(Value other);
+          ^~~~~~~~
+make: *** [src/JSONParser.o] Error 1
+01:23:36 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/JSONParser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+../src/JSONParser.cpp: In member function ‘std::string JSONParser::Books()’:
+../src/JSONParser.cpp:28:21: error: lvalue required as left operand of assignment
+  &books = obj["book"]; // array of books
+                     ^
+make: *** [src/JSONParser.o] Error 1
+01:26:52 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/JSONParser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+Finished building: ../src/JSONParser.cpp
+ 
+Building file: ../src/RestfulServiceCPPUnitTest.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RestfulServiceCPPUnitTest.d" -MT"src/RestfulServiceCPPUnitTest.o" -o "src/RestfulServiceCPPUnitTest.o" "../src/RestfulServiceCPPUnitTest.cpp"
+Finished building: ../src/RestfulServiceCPPUnitTest.cpp
+ 
+Building target: BasicRestfulServiceCPP
+Invoking: GCC C++ Linker
+g++  -o "BasicRestfulServiceCPP"  ./src/Http.o ./src/JSONParser.o ./src/RestfulServiceCPPUnitTest.o ./src/jsoncpp.o   
+Finished building target: BasicRestfulServiceCPP
+ 
+01:37:48 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/JSONParser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+Finished building: ../src/JSONParser.cpp
+ 
+Building file: ../src/RestfulServiceCPPUnitTest.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RestfulServiceCPPUnitTest.d" -MT"src/RestfulServiceCPPUnitTest.o" -o "src/RestfulServiceCPPUnitTest.o" "../src/RestfulServiceCPPUnitTest.cpp"
+Finished building: ../src/RestfulServiceCPPUnitTest.cpp
+ 
+Building target: BasicRestfulServiceCPP
+Invoking: GCC C++ Linker
+g++  -o "BasicRestfulServiceCPP"  ./src/Http.o ./src/JSONParser.o ./src/RestfulServiceCPPUnitTest.o ./src/jsoncpp.o   
+Finished building target: BasicRestfulServiceCPP
+ 
+01:38:02 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+make: Nothing to be done for `all'.
+01:40:23 **** Clean-only build of configuration Debug for project BasicRestfulServiceCPP ****
+make clean 
+rm -rf  ./src/Http.o ./src/JSONParser.o ./src/RestfulServiceCPPUnitTest.o ./src/jsoncpp.o  ./src/Http.d ./src/JSONParser.d ./src/RestfulServiceCPPUnitTest.d ./src/jsoncpp.d  BasicRestfulServiceCPP
+ 
+01:40:23 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/BasicRestfulServiceCPP.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BasicRestfulServiceCPP.d" -MT"src/BasicRestfulServiceCPP.o" -o "src/BasicRestfulServiceCPP.o" "../src/BasicRestfulServiceCPP.cpp"
+../src/BasicRestfulServiceCPP.cpp: In function ‘int main(int, const char**)’:
+../src/BasicRestfulServiceCPP.cpp:52:13: error: no matching function for call to ‘JSONParser::JSONParser()’
+  JSONParser jsonParser;
+             ^~~~~~~~~~
+In file included from ../src/BasicRestfulServiceCPP.cpp:10:0:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:22:2: note: candidate: JSONParser::JSONParser(std::string)
+  JSONParser(string in);
+  ^~~~~~~~~~
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:22:2: note:   candidate expects 1 argument, 0 provided
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:18:7: note: candidate: JSONParser::JSONParser(const JSONParser&)
+ class JSONParser {
+       ^~~~~~~~~~
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:18:7: note:   candidate expects 1 argument, 0 provided
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:18:7: note: candidate: JSONParser::JSONParser(JSONParser&&)
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:18:7: note:   candidate expects 1 argument, 0 provided
+../src/BasicRestfulServiceCPP.cpp:53:35: error: no matching function for call to ‘JSONParser::Books(std::basic_stringstream<char>::__string_type)’
+  cout << jsonParser.Books(ss.str());
+                                   ^
+In file included from ../src/BasicRestfulServiceCPP.cpp:10:0:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:23:9: note: candidate: std::string JSONParser::Books()
+  string Books();
+         ^~~~~
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:23:9: note:   candidate expects 0 arguments, 1 provided
+make: *** [src/BasicRestfulServiceCPP.o] Error 1
+01:40:54 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/BasicRestfulServiceCPP.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BasicRestfulServiceCPP.d" -MT"src/BasicRestfulServiceCPP.o" -o "src/BasicRestfulServiceCPP.o" "../src/BasicRestfulServiceCPP.cpp"
+Finished building: ../src/BasicRestfulServiceCPP.cpp
+ 
+Building file: ../src/Http.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Http.d" -MT"src/Http.o" -o "src/Http.o" "../src/Http.cpp"
+Finished building: ../src/Http.cpp
+ 
+Building file: ../src/JSONParser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+Finished building: ../src/JSONParser.cpp
+ 
+Building file: ../src/jsoncpp.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/jsoncpp.d" -MT"src/jsoncpp.o" -o "src/jsoncpp.o" "../src/jsoncpp.cpp"
+Finished building: ../src/jsoncpp.cpp
+ 
+Building target: BasicRestfulServiceCPP
+Invoking: GCC C++ Linker
+g++  -o "BasicRestfulServiceCPP"  ./src/BasicRestfulServiceCPP.o ./src/Http.o ./src/JSONParser.o ./src/jsoncpp.o   
+Finished building target: BasicRestfulServiceCPP
+ 
+01:41:02 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+make: Nothing to be done for `all'.
+01:44:21 **** Clean-only build of configuration Debug for project BasicRestfulServiceCPP ****
+make clean 
+rm -rf  ./src/BasicRestfulServiceCPP.o ./src/Http.o ./src/JSONParser.o ./src/jsoncpp.o  ./src/BasicRestfulServiceCPP.d ./src/Http.d ./src/JSONParser.d ./src/jsoncpp.d  BasicRestfulServiceCPP
+ 
+01:44:21 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/Http.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Http.d" -MT"src/Http.o" -o "src/Http.o" "../src/Http.cpp"
+Finished building: ../src/Http.cpp
+ 
+Building file: ../src/JSONParser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+Finished building: ../src/JSONParser.cpp
+ 
+Building file: ../src/RestfulServiceCPPUnitTest.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RestfulServiceCPPUnitTest.d" -MT"src/RestfulServiceCPPUnitTest.o" -o "src/RestfulServiceCPPUnitTest.o" "../src/RestfulServiceCPPUnitTest.cpp"
+01:45:31 **** Clean-only build of configuration Debug for project BasicRestfulServiceCPP ****
+make clean 
+rm -rf  ./src/Http.o ./src/JSONParser.o ./src/RestfulServiceCPPUnitTest.o ./src/jsoncpp.o  ./src/Http.d ./src/JSONParser.d ./src/RestfulServiceCPPUnitTest.d ./src/jsoncpp.d  BasicRestfulServiceCPP
+ 
+01:45:31 **** Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/Http.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Http.d" -MT"src/Http.o" -o "src/Http.o" "../src/Http.cpp"
+Finished building: ../src/Http.cpp
+ 
+Building file: ../src/JSONParser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+../src/JSONParser.cpp:30:8: error: prototype for ‘std::string JSONParser::Author()’ does not match any in class ‘JSONParser’
+ string JSONParser::Author() {
+        ^~~~~~~~~~
+In file included from ../src/JSONParser.cpp:9:0:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:24:9: error: candidate is: std::string JSONParser::Author(std::string)
+  string Author(string Title);
+         ^~~~~~
+make: *** [src/JSONParser.o] Error 1
+01:46:06 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/JSONParser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+Finished building: ../src/JSONParser.cpp
+ 
+Building file: ../src/RestfulServiceCPPUnitTest.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RestfulServiceCPPUnitTest.d" -MT"src/RestfulServiceCPPUnitTest.o" -o "src/RestfulServiceCPPUnitTest.o" "../src/RestfulServiceCPPUnitTest.cpp"
+Finished building: ../src/RestfulServiceCPPUnitTest.cpp
+ 
+Building file: ../src/jsoncpp.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/jsoncpp.d" -MT"src/jsoncpp.o" -o "src/jsoncpp.o" "../src/jsoncpp.cpp"
+Finished building: ../src/jsoncpp.cpp
+ 
+Building target: BasicRestfulServiceCPP
+Invoking: GCC C++ Linker
+g++  -o "BasicRestfulServiceCPP"  ./src/Http.o ./src/JSONParser.o ./src/RestfulServiceCPPUnitTest.o ./src/jsoncpp.o   
+Finished building target: BasicRestfulServiceCPP
+ 
+01:46:49 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+make: Nothing to be done for `all'.
+01:48:04 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+make: Nothing to be done for `all'.
+01:51:54 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/JSONParser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+Finished building: ../src/JSONParser.cpp
+ 
+Building file: ../src/RestfulServiceCPPUnitTest.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RestfulServiceCPPUnitTest.d" -MT"src/RestfulServiceCPPUnitTest.o" -o "src/RestfulServiceCPPUnitTest.o" "../src/RestfulServiceCPPUnitTest.cpp"
+Finished building: ../src/RestfulServiceCPPUnitTest.cpp
+ 
+Building target: BasicRestfulServiceCPP
+Invoking: GCC C++ Linker
+g++  -o "BasicRestfulServiceCPP"  ./src/Http.o ./src/JSONParser.o ./src/RestfulServiceCPPUnitTest.o ./src/jsoncpp.o   
+Finished building target: BasicRestfulServiceCPP
+ 
+01:52:15 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/RestfulServiceCPPUnitTest.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RestfulServiceCPPUnitTest.d" -MT"src/RestfulServiceCPPUnitTest.o" -o "src/RestfulServiceCPPUnitTest.o" "../src/RestfulServiceCPPUnitTest.cpp"
+Finished building: ../src/RestfulServiceCPPUnitTest.cpp
+ 
+Building target: BasicRestfulServiceCPP
+Invoking: GCC C++ Linker
+g++  -o "BasicRestfulServiceCPP"  ./src/Http.o ./src/JSONParser.o ./src/RestfulServiceCPPUnitTest.o ./src/jsoncpp.o   
+Finished building target: BasicRestfulServiceCPP
+ 
+01:53:52 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+make: Nothing to be done for `all'.
+01:53:55 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/RestfulServiceCPPUnitTest.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RestfulServiceCPPUnitTest.d" -MT"src/RestfulServiceCPPUnitTest.o" -o "src/RestfulServiceCPPUnitTest.o" "../src/RestfulServiceCPPUnitTest.cpp"
+Finished building: ../src/RestfulServiceCPPUnitTest.cpp
+ 
+Building target: BasicRestfulServiceCPP
+Invoking: GCC C++ Linker
+g++  -o "BasicRestfulServiceCPP"  ./src/Http.o ./src/JSONParser.o ./src/RestfulServiceCPPUnitTest.o ./src/jsoncpp.o   
+Finished building target: BasicRestfulServiceCPP
+ 
+01:54:45 **** Clean-only build of configuration Debug for project BasicRestfulServiceCPP ****
+make clean 
+rm -rf  ./src/Http.o ./src/JSONParser.o ./src/RestfulServiceCPPUnitTest.o ./src/jsoncpp.o  ./src/Http.d ./src/JSONParser.d ./src/RestfulServiceCPPUnitTest.d ./src/jsoncpp.d  BasicRestfulServiceCPP
+ 
+01:54:45 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/Http.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Http.d" -MT"src/Http.o" -o "src/Http.o" "../src/Http.cpp"
+Finished building: ../src/Http.cpp
+ 
+Building file: ../src/JSONParser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+Finished building: ../src/JSONParser.cpp
+ 
+Building file: ../src/RestfulServiceCPPUnitTest.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RestfulServiceCPPUnitTest.d" -MT"src/RestfulServiceCPPUnitTest.o" -o "src/RestfulServiceCPPUnitTest.o" "../src/RestfulServiceCPPUnitTest.cpp"
+Finished building: ../src/RestfulServiceCPPUnitTest.cpp
+ 
+Building file: ../src/jsoncpp.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/jsoncpp.d" -MT"src/jsoncpp.o" -o "src/jsoncpp.o" "../src/jsoncpp.cpp"
+Finished building: ../src/jsoncpp.cpp
+ 
+Building target: BasicRestfulServiceCPP
+Invoking: GCC C++ Linker
+g++  -o "BasicRestfulServiceCPP"  ./src/Http.o ./src/JSONParser.o ./src/RestfulServiceCPPUnitTest.o ./src/jsoncpp.o   
+Finished building target: BasicRestfulServiceCPP
+ 
+01:55:01 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+make: Nothing to be done for `all'.
+01:55:29 **** Clean-only build of configuration Debug for project BasicRestfulServiceCPP ****
+make clean 
+rm -rf  ./src/Http.o ./src/JSONParser.o ./src/RestfulServiceCPPUnitTest.o ./src/jsoncpp.o  ./src/Http.d ./src/JSONParser.d ./src/RestfulServiceCPPUnitTest.d ./src/jsoncpp.d  BasicRestfulServiceCPP
+ 
+01:55:29 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/BasicRestfulServiceCPP.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BasicRestfulServiceCPP.d" -MT"src/BasicRestfulServiceCPP.o" -o "src/BasicRestfulServiceCPP.o" "../src/BasicRestfulServiceCPP.cpp"
+Finished building: ../src/BasicRestfulServiceCPP.cpp
+ 
+Building file: ../src/Http.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Http.d" -MT"src/Http.o" -o "src/Http.o" "../src/Http.cpp"
+Finished building: ../src/Http.cpp
+ 
+Building file: ../src/JSONParser.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+Finished building: ../src/JSONParser.cpp
+ 
+Building file: ../src/jsoncpp.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/jsoncpp.d" -MT"src/jsoncpp.o" -o "src/jsoncpp.o" "../src/jsoncpp.cpp"
+Finished building: ../src/jsoncpp.cpp
+ 
+Building target: BasicRestfulServiceCPP
+Invoking: GCC C++ Linker
+g++  -o "BasicRestfulServiceCPP"  ./src/BasicRestfulServiceCPP.o ./src/Http.o ./src/JSONParser.o ./src/jsoncpp.o   
+Finished building target: BasicRestfulServiceCPP
+ 
+01:55:36 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+make: Nothing to be done for `all'.
+01:56:08 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+make: Nothing to be done for `all'.
+01:56:14 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+make: Nothing to be done for `all'.
