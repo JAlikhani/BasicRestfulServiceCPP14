@@ -8,32 +8,22 @@
 
 #include "../include/JSONParser.h"
 
-string SubString(string in, char after ) {
+string SubString(string in, string start ) {
 
-	string buff {""};
-	bool start = false;
-
-	for(auto n:in)
-	{
-		if(start) {
-			buff += n;
-		}
-		else if(n == after) {
-			buff += n;
-			start = true;
-		}
-	}
-	return buff;
+	string ret;
+	size_t found = in.find(start);
+	if (found!=string::npos) ret = in.substr(found);
+	return ret;
 }
 
 string JSONParser::Books(string httpInput) {
 
 	stringstream ss;
-	string buff = SubString(httpInput, '{');
+	string buff = SubString(httpInput, "{");
 	Json::Reader reader;
 	Json::Value obj;
 	reader.parse(buff, obj); // reader can also read strings
-	const Json::Value& books = obj["book"]; // array of characters
+	const Json::Value& books = obj["book"]; // array of books
 	for (unsigned int i = 0; i < books.size(); i++){
 		ss << i + 1 << ":" << endl;
 		ss << "title: " << books[i]["title"].asString() << endl;

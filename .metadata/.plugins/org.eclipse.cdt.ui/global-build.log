@@ -43,3 +43,64 @@ Finished building target: BasicRestfulServiceCPP
 20:54:01 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
 make all 
 make: Nothing to be done for `all'.
+22:46:24 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/BasicRestfulServiceCPP.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BasicRestfulServiceCPP.d" -MT"src/BasicRestfulServiceCPP.o" -o "src/BasicRestfulServiceCPP.o" "../src/BasicRestfulServiceCPP.cpp"
+../src/BasicRestfulServiceCPP.cpp: In function ‘int main(int, const char**)’:
+../src/BasicRestfulServiceCPP.cpp:16:7: warning: unused variable ‘http’ [-Wunused-variable]
+  Http http;
+       ^~~~
+Finished building: ../src/BasicRestfulServiceCPP.cpp
+ 
+Building file: ../src/JSONParser.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+Finished building: ../src/JSONParser.cpp
+ 
+Building target: BasicRestfulServiceCPP
+Invoking: GCC C++ Linker
+g++  -o "BasicRestfulServiceCPP"  ./src/BasicRestfulServiceCPP.o ./src/Http.o ./src/JSONParser.o ./src/jsoncpp.o   
+Finished building target: BasicRestfulServiceCPP
+ 
+22:46:36 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/BasicRestfulServiceCPP.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BasicRestfulServiceCPP.d" -MT"src/BasicRestfulServiceCPP.o" -o "src/BasicRestfulServiceCPP.o" "../src/BasicRestfulServiceCPP.cpp"
+../src/BasicRestfulServiceCPP.cpp: In function ‘int main(int, const char**)’:
+../src/BasicRestfulServiceCPP.cpp:16:7: warning: unused variable ‘http’ [-Wunused-variable]
+  Http http;
+       ^~~~
+Finished building: ../src/BasicRestfulServiceCPP.cpp
+ 
+Building target: BasicRestfulServiceCPP
+Invoking: GCC C++ Linker
+g++  -o "BasicRestfulServiceCPP"  ./src/BasicRestfulServiceCPP.o ./src/Http.o ./src/JSONParser.o ./src/jsoncpp.o   
+Finished building target: BasicRestfulServiceCPP
+ 
+22:47:17 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/BasicRestfulServiceCPP.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BasicRestfulServiceCPP.d" -MT"src/BasicRestfulServiceCPP.o" -o "src/BasicRestfulServiceCPP.o" "../src/BasicRestfulServiceCPP.cpp"
+Finished building: ../src/BasicRestfulServiceCPP.cpp
+ 
+Building target: BasicRestfulServiceCPP
+Invoking: GCC C++ Linker
+g++  -o "BasicRestfulServiceCPP"  ./src/BasicRestfulServiceCPP.o ./src/Http.o ./src/JSONParser.o ./src/jsoncpp.o   
+Finished building target: BasicRestfulServiceCPP
+ 
+22:48:53 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building file: ../src/BasicRestfulServiceCPP.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BasicRestfulServiceCPP.d" -MT"src/BasicRestfulServiceCPP.o" -o "src/BasicRestfulServiceCPP.o" "../src/BasicRestfulServiceCPP.cpp"
+Finished building: ../src/BasicRestfulServiceCPP.cpp
+ 
+Building target: BasicRestfulServiceCPP
+Invoking: GCC C++ Linker
+g++  -o "BasicRestfulServiceCPP"  ./src/BasicRestfulServiceCPP.o ./src/Http.o ./src/JSONParser.o ./src/jsoncpp.o   
+Finished building target: BasicRestfulServiceCPP
+ 
