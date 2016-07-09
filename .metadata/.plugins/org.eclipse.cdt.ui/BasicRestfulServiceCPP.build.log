@@ -1,15 +1,6 @@
-22:48:53 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+00:34:30 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
 make all 
-Building file: ../src/BasicRestfulServiceCPP.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BasicRestfulServiceCPP.d" -MT"src/BasicRestfulServiceCPP.o" -o "src/BasicRestfulServiceCPP.o" "../src/BasicRestfulServiceCPP.cpp"
-Finished building: ../src/BasicRestfulServiceCPP.cpp
- 
-Building target: BasicRestfulServiceCPP
-Invoking: GCC C++ Linker
-g++  -o "BasicRestfulServiceCPP"  ./src/BasicRestfulServiceCPP.o ./src/Http.o ./src/JSONParser.o ./src/jsoncpp.o   
-Finished building target: BasicRestfulServiceCPP
- 
+make: Nothing to be done for `all'.
 
-22:48:54 Build Finished (took 731ms)
+00:34:30 Build Finished (took 68ms)
 

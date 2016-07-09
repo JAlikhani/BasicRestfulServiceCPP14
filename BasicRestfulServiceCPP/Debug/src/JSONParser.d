@@ -1,12 +1,13 @@
-src/JSONParser.o: ../src/JSONParser.cpp ../src/../include/JSONParser.h \
- ../src/../include/../include/Headers.h \
- ../src/../include/../include/json.h \
- ../src/../include/../include/json-forwards.h
+src/JSONParser.o: ../src/JSONParser.cpp \
+ /home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h \
+ /home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/Headers.h \
+ /home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/json.h \
+ /home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/json-forwards.h
 
-../src/../include/JSONParser.h:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/JSONParser.h:
 
-../src/../include/../include/Headers.h:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/Headers.h:
 
-../src/../include/../include/json.h:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/json.h:
 
-../src/../include/../include/json-forwards.h:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/json-forwards.h:

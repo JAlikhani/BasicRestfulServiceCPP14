@@ -1,6 +1,7 @@
-src/Http.o: ../src/Http.cpp ../src/../include/Http.h \
- ../src/../include/../include/Headers.h
+src/Http.o: ../src/Http.cpp \
+ /home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/Http.h \
+ /home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/Headers.h
 
-../src/../include/Http.h:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/Http.h:
 
-../src/../include/../include/Headers.h:
+/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include/Headers.h:

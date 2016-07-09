@@ -1,19 +1,69 @@
-20:49:43 **** Build of configuration Debug for project BasicRestfulServiceCPP ****
+00:22:40 **** Incremental Build of configuration Debug for project RestfulServiceCPPUnitTest ****
+make all 
+Cannot run program "make": Unknown reason
+00:24:36 **** Build of configuration Debug for project RestfulServiceCPPUnitTest ****
+make all 
+Building file: ../src/RestfulServiceCPPUnitTest.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -lboost_unit_test_framework -std=c++14 -MMD -MP -MF"src/RestfulServiceCPPUnitTest.d" -MT"src/RestfulServiceCPPUnitTest.o" -o "src/RestfulServiceCPPUnitTest.o" "../src/RestfulServiceCPPUnitTest.cpp"
+../src/RestfulServiceCPPUnitTest.cpp:11:20: fatal error: Http.cpp: No such file or directory
+ #include <Http.cpp>
+                    ^
+compilation terminated.
+make: *** [src/RestfulServiceCPPUnitTest.o] Error 1
+00:25:00 **** Incremental Build of configuration Debug for project RestfulServiceCPPUnitTest ****
+make all 
+Building file: ../src/RestfulServiceCPPUnitTest.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -lboost_unit_test_framework -std=c++14 -MMD -MP -MF"src/RestfulServiceCPPUnitTest.d" -MT"src/RestfulServiceCPPUnitTest.o" -o "src/RestfulServiceCPPUnitTest.o" "../src/RestfulServiceCPPUnitTest.cpp"
+Finished building: ../src/RestfulServiceCPPUnitTest.cpp
+ 
+Building target: RestfulServiceCPPUnitTest
+Invoking: GCC C++ Linker
+g++  -o "RestfulServiceCPPUnitTest"  ./src/RestfulServiceCPPUnitTest.o   
+Finished building target: RestfulServiceCPPUnitTest
+ 
+00:25:14 **** Incremental Build of configuration Debug for project RestfulServiceCPPUnitTest ****
+make all 
+make: Nothing to be done for `all'.
+00:28:15 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
 make all 
 Building file: ../src/BasicRestfulServiceCPP.cpp
 Invoking: GCC C++ Compiler
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BasicRestfulServiceCPP.d" -MT"src/BasicRestfulServiceCPP.o" -o "src/BasicRestfulServiceCPP.o" "../src/BasicRestfulServiceCPP.cpp"
 Finished building: ../src/BasicRestfulServiceCPP.cpp
  
+Building file: ../src/RestfulServiceCPPUnitTest.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RestfulServiceCPPUnitTest.d" -MT"src/RestfulServiceCPPUnitTest.o" -o "src/RestfulServiceCPPUnitTest.o" "../src/RestfulServiceCPPUnitTest.cpp"
+Finished building: ../src/RestfulServiceCPPUnitTest.cpp
+ 
 Building target: BasicRestfulServiceCPP
 Invoking: GCC C++ Linker
-g++  -o "BasicRestfulServiceCPP"  ./src/BasicRestfulServiceCPP.o   
-Finished building target: BasicRestfulServiceCPP
- 
-20:49:48 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+g++  -o "BasicRestfulServiceCPP"  ./src/BasicRestfulServiceCPP.o ./src/Http.o ./src/JSONParser.o ./src/RestfulServiceCPPUnitTest.o ./src/jsoncpp.o   
+./src/RestfulServiceCPPUnitTest.o: In function `main':
+/usr/include/boost/test/unit_test.hpp:58: multiple definition of `main'
+./src/BasicRestfulServiceCPP.o:/home/parallels/Documents/Projects/BasicRestfulServiceCPP/Debug/../src/BasicRestfulServiceCPP.cpp:15: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [BasicRestfulServiceCPP] Error 1
+00:28:27 **** Incremental Build of configuration Debug for project RestfulServiceCPPUnitTest ****
 make all 
 make: Nothing to be done for `all'.
-20:53:54 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+00:28:33 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+Building target: BasicRestfulServiceCPP
+Invoking: GCC C++ Linker
+g++  -o "BasicRestfulServiceCPP"  ./src/BasicRestfulServiceCPP.o ./src/Http.o ./src/JSONParser.o ./src/RestfulServiceCPPUnitTest.o ./src/jsoncpp.o   
+./src/RestfulServiceCPPUnitTest.o: In function `main':
+/usr/include/boost/test/unit_test.hpp:58: multiple definition of `main'
+./src/BasicRestfulServiceCPP.o:/home/parallels/Documents/Projects/BasicRestfulServiceCPP/Debug/../src/BasicRestfulServiceCPP.cpp:15: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [BasicRestfulServiceCPP] Error 1
+00:29:46 **** Clean-only build of configuration Debug for project BasicRestfulServiceCPP ****
+make clean 
+rm -rf  ./src/BasicRestfulServiceCPP.o ./src/Http.o ./src/JSONParser.o ./src/RestfulServiceCPPUnitTest.o ./src/jsoncpp.o  ./src/BasicRestfulServiceCPP.d ./src/Http.d ./src/JSONParser.d ./src/RestfulServiceCPPUnitTest.d ./src/jsoncpp.d  BasicRestfulServiceCPP
+ 
+00:29:46 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
 make all 
 Building file: ../src/BasicRestfulServiceCPP.cpp
 Invoking: GCC C++ Compiler
@@ -40,67 +90,60 @@ Invoking: GCC C++ Linker
 g++  -o "BasicRestfulServiceCPP"  ./src/BasicRestfulServiceCPP.o ./src/Http.o ./src/JSONParser.o ./src/jsoncpp.o   
 Finished building target: BasicRestfulServiceCPP
  
-20:54:01 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
-make all 
-make: Nothing to be done for `all'.
-22:46:24 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+00:32:04 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
 make all 
 Building file: ../src/BasicRestfulServiceCPP.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BasicRestfulServiceCPP.d" -MT"src/BasicRestfulServiceCPP.o" -o "src/BasicRestfulServiceCPP.o" "../src/BasicRestfulServiceCPP.cpp"
-../src/BasicRestfulServiceCPP.cpp: In function ‘int main(int, const char**)’:
-../src/BasicRestfulServiceCPP.cpp:16:7: warning: unused variable ‘http’ [-Wunused-variable]
-  Http http;
-       ^~~~
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BasicRestfulServiceCPP.d" -MT"src/BasicRestfulServiceCPP.o" -o "src/BasicRestfulServiceCPP.o" "../src/BasicRestfulServiceCPP.cpp"
 Finished building: ../src/BasicRestfulServiceCPP.cpp
+ 
+Building file: ../src/Http.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Http.d" -MT"src/Http.o" -o "src/Http.o" "../src/Http.cpp"
+Finished building: ../src/Http.cpp
  
 Building file: ../src/JSONParser.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
 Finished building: ../src/JSONParser.cpp
  
+Building file: ../src/jsoncpp.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/jsoncpp.d" -MT"src/jsoncpp.o" -o "src/jsoncpp.o" "../src/jsoncpp.cpp"
+Finished building: ../src/jsoncpp.cpp
+ 
 Building target: BasicRestfulServiceCPP
 Invoking: GCC C++ Linker
 g++  -o "BasicRestfulServiceCPP"  ./src/BasicRestfulServiceCPP.o ./src/Http.o ./src/JSONParser.o ./src/jsoncpp.o   
 Finished building target: BasicRestfulServiceCPP
  
-22:46:36 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+00:34:19 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
 make all 
 Building file: ../src/BasicRestfulServiceCPP.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BasicRestfulServiceCPP.d" -MT"src/BasicRestfulServiceCPP.o" -o "src/BasicRestfulServiceCPP.o" "../src/BasicRestfulServiceCPP.cpp"
-../src/BasicRestfulServiceCPP.cpp: In function ‘int main(int, const char**)’:
-../src/BasicRestfulServiceCPP.cpp:16:7: warning: unused variable ‘http’ [-Wunused-variable]
-  Http http;
-       ^~~~
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BasicRestfulServiceCPP.d" -MT"src/BasicRestfulServiceCPP.o" -o "src/BasicRestfulServiceCPP.o" "../src/BasicRestfulServiceCPP.cpp"
 Finished building: ../src/BasicRestfulServiceCPP.cpp
  
-Building target: BasicRestfulServiceCPP
-Invoking: GCC C++ Linker
-g++  -o "BasicRestfulServiceCPP"  ./src/BasicRestfulServiceCPP.o ./src/Http.o ./src/JSONParser.o ./src/jsoncpp.o   
-Finished building target: BasicRestfulServiceCPP
- 
-22:47:17 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
-make all 
-Building file: ../src/BasicRestfulServiceCPP.cpp
+Building file: ../src/Http.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BasicRestfulServiceCPP.d" -MT"src/BasicRestfulServiceCPP.o" -o "src/BasicRestfulServiceCPP.o" "../src/BasicRestfulServiceCPP.cpp"
-Finished building: ../src/BasicRestfulServiceCPP.cpp
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Http.d" -MT"src/Http.o" -o "src/Http.o" "../src/Http.cpp"
+Finished building: ../src/Http.cpp
  
-Building target: BasicRestfulServiceCPP
-Invoking: GCC C++ Linker
-g++  -o "BasicRestfulServiceCPP"  ./src/BasicRestfulServiceCPP.o ./src/Http.o ./src/JSONParser.o ./src/jsoncpp.o   
-Finished building target: BasicRestfulServiceCPP
- 
-22:48:53 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
-make all 
-Building file: ../src/BasicRestfulServiceCPP.cpp
+Building file: ../src/JSONParser.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BasicRestfulServiceCPP.d" -MT"src/BasicRestfulServiceCPP.o" -o "src/BasicRestfulServiceCPP.o" "../src/BasicRestfulServiceCPP.cpp"
-Finished building: ../src/BasicRestfulServiceCPP.cpp
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/JSONParser.d" -MT"src/JSONParser.o" -o "src/JSONParser.o" "../src/JSONParser.cpp"
+Finished building: ../src/JSONParser.cpp
+ 
+Building file: ../src/jsoncpp.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/parallels/Documents/Projects/BasicRestfulServiceCPP/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/jsoncpp.d" -MT"src/jsoncpp.o" -o "src/jsoncpp.o" "../src/jsoncpp.cpp"
+Finished building: ../src/jsoncpp.cpp
  
 Building target: BasicRestfulServiceCPP
 Invoking: GCC C++ Linker
 g++  -o "BasicRestfulServiceCPP"  ./src/BasicRestfulServiceCPP.o ./src/Http.o ./src/JSONParser.o ./src/jsoncpp.o   
 Finished building target: BasicRestfulServiceCPP
  
+00:34:30 **** Incremental Build of configuration Debug for project BasicRestfulServiceCPP ****
+make all 
+make: Nothing to be done for `all'.

@@ -9,9 +9,9 @@
 #ifndef JSONPARSER_H_
 #define JSONPARSER_H_
 
-#include "../include/Headers.h"
-#include "../include/json.h"
-#include "../include/json-forwards.h"
+#include <Headers.h>
+#include <json.h>
+#include <json-forwards.h>
 
 using namespace std;
 

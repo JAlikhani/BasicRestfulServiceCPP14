@@ -6,7 +6,7 @@
 // Description : Restful Service in Modern C++14
 //============================================================================
 
-#include "../include/JSONParser.h"
+#include <JSONParser.h>
 
 string SubString(string in, string start ) {
 
