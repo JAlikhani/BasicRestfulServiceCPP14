@@ -2,7 +2,7 @@
 // Name        : Headers.h
 // Author      : J.Alikhani
 // Version     : 1.0
-// Copyright   : @2016 RestfulServiceCpp
+// Copyright   : @2016 RestfulServiceCPP
 // Description : Restful Service in Modern C++14
 //============================================================================
 

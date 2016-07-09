@@ -1,9 +1,9 @@
 //============================================================================
 // Name        : RestfulServiceCPPUnitTest.cpp
-// Author      :
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Author      : J.Alikhani
+// Version     : 1.0
+// Copyright   : @2016 RestfulServiceCPP
+// Description : Restful Service in Modern C++14
 //============================================================================
 #define BOOST_TEST_DYN_LINK
 #define BOOST_TEST_JSON_MODULE JSONTest
