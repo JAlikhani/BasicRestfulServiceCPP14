@@ -1,0 +1,6 @@
+20:38:05 **** Incremental Build of configuration Debug for project RestfulServiceCPP ****
+make all 
+src/Http.d:1: *** missing separator.  Stop.
+
+20:38:05 Build Finished (took 67ms)
+
